@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    background-color: red;
+    padding: 20px 50px;
+}
+
+
+.header .navbar{
+    margin:0 auto;
+
+}
+.header .navbar ul {
+    display: flex;
+background-color: yellow;
+padding: 0;
+}
+
+.header .navbar ul li {
+    font-family: "Open Sans", sans-serif;
+color: rgb(119, 119, 119);
+font-size: 17px;
+font-weight: 600;
+padding:0 10px ;
+
+
+}
+
+ul{
+    list-style: none;
+
+}
+
+
+
+.header  .logo{
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+font-weight: 700;
+
+}
+.header .logo span {
+    color: red;
+}
+
+
+
+.main {
+    height: 100vh;
+    display: flex;
+    background-color: #EEEEEE;
+    
+}
+
+.main .main-image{
+    width: 50%;
+    height: 40%;
+    text-align: right;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+.main .main-image img{
+    width: 67%;
+}
+
+
+
+
+.main div p span{
+    font-family: "Amatic SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;
+}
+
+.main div span{
+    font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;   
+}
+
+
+.main .content {
+    height: fit-content;
+    position: relative;
+    left: 100px;
+    top: 80px;
+}
+
+.section-2 .section-title{
+    text-align: center;
+    margin: 70px;
+}
+
+.section-2 .section-title span{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: rgb(127, 127, 144) ;
+    font-weight: 400;
+}
+.section-2 .section-title h2{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.section-2 .section-title h2 span{
+    font-family: "Amatic SC", sans-serif;
+    font-size: 50px;
+    color: red;
+    font-weight: 400;
+}
+
+.section-2 .content {
+    margin:20px 60px;
+    display: flex;
+    background-color: green;
+
+    
+}
+
+
+.section-2 .item  {
+
+    background-color: yellow;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+
+    
+}
+
+.section-2 .item img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section-2 .item h3 ,h4{
+    margin: 0;
+}
+
